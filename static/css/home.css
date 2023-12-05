@@ -1,0 +1,179 @@
+*
+
+{
+margin:0;
+padding:0;
+}
+#menu ul
+{
+   list-style : none;
+   z-index: 1000;
+}
+#menu ul li
+{
+  background-color : black;
+  border: 1px solid white;
+  width:  265px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+ position:  relative;
+ }
+#menu ul li a
+{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+#menu ul li a:hover
+{
+ background-color: red;
+}
+#menu ul ul
+{
+position: absolute;
+ display: none;
+}
+#menu ul li:hover > ul
+{
+display: block;
+}
+#outerbox
+{
+	width: 1345px;
+	height: 600px;
+	overflow: hidden;
+}
+#sliderbox
+{
+position:  relative;
+width:  5380px;
+animation: slide 20s infinite;
+}
+#sliderbox img
+{
+	width: 1345px;
+   float:  left;
+}
+@keyframes slide
+{
+  0%
+   {
+       left:  0px;
+   }
+
+  20%
+  {
+   left: 0px;
+  }
+
+ 25%
+     {
+        left:   -1345px;
+   }
+
+   45%
+     {
+        left:   -1345px;
+   }
+
+   50%
+     {
+        left:   -2690px;
+   }
+
+   70%
+     {
+        left:  -2690px;
+   }
+
+
+   75%
+     {
+        left:   -4035px;
+   }
+
+
+   95%
+     {
+        left:   -4035px;
+   }
+
+
+   100%
+     {
+        left:   -5380px;
+   }
+}
+
+.top_cat
+{
+	border: px solid black;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.top_cat_pro
+{
+	border: 0px solid red;
+	width: 370px;
+	height: 265px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	transition: transform 1s;
+}
+
+.top_cat_pro:hover
+{
+transform: scale(1.05) ;
+}
+
+.top_cat_pro img
+{
+	width: 100%;
+}
+
+.checked
+{
+	color: orange;
+}
+
+.starr
+{
+	border: px solid black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title  p
+{
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+
+	display: flex;
+	justify-content: space-around;
+	align-itmes: center;
+}
+
+.footerb
+{
+	height: 180px;
+	width: 300px;
+
+	float: left;
+	color: white;
+	text-align: center;
+}

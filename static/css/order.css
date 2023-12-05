@@ -1,0 +1,95 @@
+*
+
+{
+margin:0;
+padding:0;
+}
+#menu ul
+{
+   list-style : none;
+   z-index: 1000;
+}
+#menu ul li
+{
+  background-color : black;
+  border: 1px solid white;
+  width:  265px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+ position:  relative;
+ }
+#menu ul li a
+{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+#menu ul li a:hover
+{
+ background-color: red;
+}
+#menu ul ul
+{
+position: absolute;
+ display: none;
+}
+#menu ul li:hover > ul
+{
+display: block;
+}
+
+table
+{
+	height: 430px;
+}
+input
+{
+	width: 100%;
+	height: 35px;
+	border: 2px solid green;
+	font-size: 20px;
+}
+textarea
+{
+
+	width: 100%;
+	height: 90px;
+	border: 2px solid green;
+	font-size: 25px;
+}
+
+select
+{
+	width: 100%;
+	height: 35px;
+	border: 2px solid green;
+}
+
+input[type=button]:hover
+{
+	background-color: black;
+	color: white;
+}
+
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+
+	display: flex;
+	justify-content: space-around;
+	align-itmes: center;
+}
+
+.footerb
+{
+	height: 180px;
+	width: 300px;
+
+	float: left;
+	color: white;
+	text-align: center;
+}
