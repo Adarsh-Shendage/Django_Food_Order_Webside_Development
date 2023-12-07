@@ -10,6 +10,8 @@
 
 - 👨‍💻 my project is available at [https://shorturl.at/lnzEV](https://shorturl.at/lnzEV)
 
+- My Resume Available At : https://shorturl.at/kIM38
+
 - 💬 Ask me about **Python,Django,Mysql,Java,c,c++,Oracle**
 
 - 📫 How to reach me **adarshshendage2017@gmail.com**
